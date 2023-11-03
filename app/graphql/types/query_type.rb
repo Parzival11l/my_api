@@ -10,5 +10,8 @@ module Types
     # PETS
     field :user_pets, resolver: Resolvers::Pets::UserPets
 
+    # CUSTOM
+    field :random_number, resolver: Resolvers::Custom::RandomNumber
+
   end
 end
