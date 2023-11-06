@@ -66,6 +66,9 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    apollo_upload_server (2.0.1)
+      graphql (>= 1.8)
+      rails (>= 4.2)
     bcrypt (3.1.18)
     bootsnap (1.17.0)
       msgpack (~> 1.2)
@@ -193,6 +196,7 @@ PLATFORMS
   x86_64-darwin-22
 
 DEPENDENCIES
+  apollo_upload_server (= 2.0.1)
   bcrypt (~> 3.1.13)
   bootsnap
   debug

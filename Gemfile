@@ -20,6 +20,8 @@ begin
 
   gem "graphql", "~> 2.1"
   gem 'graphiql-rails', '1.4.10', group: :development
+
+  gem 'apollo_upload_server', '2.0.1'
 end
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
